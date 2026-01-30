@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '882653961037075');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=882653961037075&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<img src="https://www.facebook.com/tr?id={pixel-id}&amp;ev={standard-event}" height="882653961037075" width="882653961037075" style="display:none"/>
+<img height="882653961037075" width="882653961037075" style="display:none" src="https://www.facebook.com/tr?id=12345&ev=PageView"/>
+<img height="882653961037075" width="882653961037075" style="display:none" src="https://www.facebook.com/tr?id=12345&ev=PageView"/> 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Brand Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .image-section {
+            width: 100%;
+            display: block;
+        }
+        
+        .image-section img {
+            width: 100%;
+            display: block;
+        }
+        
+        .button-section {
+            padding: 30px 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #f8f8f8, #ffffff);
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        /* 心跳式跳动动画 */
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            5% {
+                transform: scale(1.1);
+            }
+            10% {
+                transform: scale(1);
+            }
+            15% {
+                transform: scale(1.1);
+            }
+            20% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
+            animation-play-state: paused; /* 悬停时暂停动画 */
+        }
+        
+        .whatsapp-button:active {
+            transform: translateY(0) scale(0.98);
+        }
+        
+        .whatsapp-button:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
+        }
+        
+        .whatsapp-button:hover:before {
+            left: 100%;
+        }
+        
+        .whatsapp-icon {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
+        .footer-note {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #666;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .whatsapp-button {
+                padding: 14px 30px;
+                font-size: 16px;
+            }
+            
+            .button-section {
+                padding: 25px 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .whatsapp-button {
+                padding: 12px 25px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 第一张图片 -->
+        <section class="image-section">
+            <img src="1.jpg" alt="Luxury Brand Store - 10 Years Dedication">
+        </section>
+        
+        <!-- 第一个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+        
+        <!-- 第二张图片 -->
+        <section class="image-section">
+            <img src="2.jpg" alt="24-Hour Customer Service & Reviews">
+        </section>
+        
+        <!-- 第二个按钮连接处 -->
+         <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+        
+        <!-- 第三张图片 -->
+        <section class="image-section">
+            <img src="3.jpg" alt="Comparison with Peers & Factory Services">
+        </section>
+        
+        <!-- 第三个按钮连接处 -->
+      <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+        
+        <!-- 新增的第四张图片 -->
+        <section class="image-section">
+            <img src="4.jpg" alt="Additional Information">
+        </section>
+        
+        <!-- 新增的第四个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+
+        <!-- 新增的第五张图片 -->
+        <section class="image-section">
+            <img src="5.jpg" alt="Additional Information">
+        </section>
+        
+        <!-- 新增的第五个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+
+        <!-- 新增的第六张图片 -->
+        <section class="image-section">
+            <img src="6.jpg" alt="Additional Information">
+        </section>
+        
+        <!-- 新增的第六个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+
+
+<!-- 新增的第七张图片 -->
+        <section class="image-section">
+            <img src="7.jpg" alt="Additional Information">
+        </section>
+        
+        <!-- 新增的第七个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+
+
+<!-- 新增的第八张图片 -->
+        <section class="image-section">
+            <img src="8.jpg" alt="Additional Information">
+        </section>
+        
+        <!-- 新增的第八个按钮连接处 -->
+        <section class="button-section">
+        <a href="https://wa.me/85246642813" target="_blank" class="whatsapp-button" onclick="fbq('track', 'Contact');">
+        <span class="whatsapp-icon">💬</span>
+        Click Contact us via WhatsApp to order
+    </a>
+</section
+        
+        <!-- 页脚 -->
+        <div class="footer-note">
+            <p>© 2023 PT. Store | Dedicated to the Luxury Brand Industry for 10 Years</p>
+        </div>
+    </div>
+
+</body>
+</html>
